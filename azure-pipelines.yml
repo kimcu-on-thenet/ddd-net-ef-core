@@ -4,6 +4,10 @@ trigger:
       - master
     exclude:
       - feature/*
+  paths:
+    exclude:
+      - README.md
+      - cake/*
 
 pr:
   autoCancel: true
